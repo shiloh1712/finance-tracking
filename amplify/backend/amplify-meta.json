@@ -11,5 +11,48 @@
       "StackId": "arn:aws:cloudformation:us-east-2:582143737735:stack/amplify-financetracking-dev-213030/e91372f0-1adb-11ee-9a9f-0a02ba9fb47b",
       "AmplifyAppId": "d2fopjgxdci6lv"
     }
+  },
+  "auth": {
+    "financetracking666f057a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-financetracking-dev-213030-deployment/amplify-cfn-templates/auth/financetracking666f057a-cloudformation-template.json",
+        "logicalId": "authfinancetracking666f057a"
+      },
+      "lastPushTimeStamp": "2023-07-05T02:50:41.786Z",
+      "output": {
+        "UserPoolId": "us-east-2_MdgM9vm90",
+        "AppClientIDWeb": "5q1n8od7tng1mr8fkbjgu3nb5u",
+        "AppClientID": "624165027onkkv8clmdhf1cukp",
+        "IdentityPoolId": "us-east-2:988863ba-ba69-4f04-9027-97ad167c3ff3",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:582143737735:userpool/us-east-2_MdgM9vm90",
+        "IdentityPoolName": "financetracking666f057a_identitypool_666f057a__dev",
+        "UserPoolName": "financetracking666f057a_userpool_666f057a"
+      },
+      "lastPushDirHash": "ki87pDuSr6cQe4TslWuk/2+XL1w="
+    }
   }
 }

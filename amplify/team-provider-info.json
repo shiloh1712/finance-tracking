@@ -10,6 +10,11 @@
       "StackName": "amplify-financetracking-dev-213030",
       "StackId": "arn:aws:cloudformation:us-east-2:582143737735:stack/amplify-financetracking-dev-213030/e91372f0-1adb-11ee-9a9f-0a02ba9fb47b",
       "AmplifyAppId": "d2fopjgxdci6lv"
+    },
+    "categories": {
+      "auth": {
+        "financetracking666f057a": {}
+      }
     }
   }
 }
