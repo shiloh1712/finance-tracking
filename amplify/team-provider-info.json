@@ -1,5 +1,5 @@
 {
-  "providers": {
+  "dev": {
     "awscloudformation": {
       "AuthRoleName": "amplify-financetracking-dev-213030-authRole",
       "UnauthRoleArn": "arn:aws:iam::582143737735:role/amplify-financetracking-dev-213030-unauthRole",
