@@ -42,7 +42,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-financetracking-dev-213030-deployment/amplify-cfn-templates/auth/financetracking666f057a-cloudformation-template.json",
         "logicalId": "authfinancetracking666f057a"
       },
-      "lastPushTimeStamp": "2023-07-05T02:50:41.786Z",
+      "lastPushTimeStamp": "2023-07-05T03:55:12.870Z",
       "output": {
         "UserPoolId": "us-east-2_MdgM9vm90",
         "AppClientIDWeb": "5q1n8od7tng1mr8fkbjgu3nb5u",
@@ -53,6 +53,33 @@
         "UserPoolName": "financetracking666f057a_userpool_666f057a"
       },
       "lastPushDirHash": "ki87pDuSr6cQe4TslWuk/2+XL1w="
+    }
+  },
+  "api": {
+    "financetracking": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "pizxaoc37jhihdw7ubqnx7srn4",
+        "GraphQLAPIEndpointOutput": "https://a6qnphz2v5c4xkwiz5yjczm5qy.appsync-api.us-east-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-vehiem7enffjvarvtj7nejnyw4"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-financetracking-dev-213030-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apifinancetracking"
+      },
+      "lastPushTimeStamp": "2023-07-05T03:55:15.399Z",
+      "lastPushDirHash": "W3l61rfGk8bsvfKFi3ewVCVLmDo="
     }
   }
 }

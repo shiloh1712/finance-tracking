@@ -1,0 +1,5 @@
+{
+  "AppSyncApiName": "financetracking",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false
+}
