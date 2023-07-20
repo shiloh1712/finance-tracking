@@ -42,7 +42,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-financetracking-dev-213030-deployment/amplify-cfn-templates/auth/financetracking666f057a-cloudformation-template.json",
         "logicalId": "authfinancetracking666f057a"
       },
-      "lastPushTimeStamp": "2023-07-05T04:46:05.823Z",
+      "lastPushTimeStamp": "2023-07-16T21:40:16.027Z",
       "output": {
         "UserPoolId": "us-east-2_MdgM9vm90",
         "AppClientIDWeb": "5q1n8od7tng1mr8fkbjgu3nb5u",
@@ -78,7 +78,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-financetracking-dev-213030-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apifinancetracking"
       },
-      "lastPushTimeStamp": "2023-07-05T04:46:07.550Z",
+      "lastPushTimeStamp": "2023-07-16T21:40:16.062Z",
       "lastPushDirHash": "rqT1k4GcAqLZLLKUWlGC7Jnd/zw="
     }
   },
@@ -87,7 +87,7 @@
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
-      "lastPushTimeStamp": "2023-07-05T04:46:05.872Z",
+      "lastPushTimeStamp": "2023-07-16T21:40:18.121Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-financetracking-dev-213030-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
         "logicalId": "storages34c6d5764"
